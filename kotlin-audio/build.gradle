@@ -7,7 +7,7 @@ plugins {
 
 def versionNumber = '1.2.4'
 
-group = 'com.github.doublesymmetry'
+group = 'com.github.sobreirami'
 version = versionNumber
 
 android {
@@ -76,8 +76,8 @@ afterEvaluate {
                 artifact sourcesJar
 
                 // You can then customize attributes of the publication as shown below.
-                groupId = 'com.github.doublesymmetry'
-                artifactId = 'kotlin-audio'
+                groupId = 'com.github.sobreirami'
+                artifactId = 'KotlinAudioLegacy'
                 version = versionNumber
             }
 //            // Creates a Maven publication called “debug”.
